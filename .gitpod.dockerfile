@@ -34,3 +34,4 @@ RUN mkdir -p /home/gitpod/android-sdk && \
     wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip && \
     unzip sdk-tools-linux-4333796.zip && \
     rm -f sdk-tools-linux-4333796.zip
+RUN alias flutter="~/flutter/bin/flutter"
